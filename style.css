@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cointainer {
+    position: fixed;
+    left: 35%;
+    width: 500px;
+    height: 500px;
+    border: 00.5px solid;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(0, 60, 20); */
+    /* background-image: linear-gradient(180deg,#000000cc,transparent); */
+    background-image: linear-gradient(180deg, #0000cc, transparent);
+    /* background: url(./5.\ Белый\ тигренок.jpg) transparent; */
+    background-size: cover;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    color: black;
+    background-color: #707035;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
